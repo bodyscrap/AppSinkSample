@@ -1,0 +1,10 @@
+[package]
+name = "AppSinkSample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gst = {package = "gstreamer", version = "0.23.2"}
+gst_app = {package ="gstreamer-app", version = "0.23.2"}
+image = "0.25.4"
+csv = "1.3.0"
